@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.grid{
+    background-image: url('https://source.unsplash.com/25xggax4bSA');
+    width: 400px;
+    height: 1000px;
+}
+
+.image{
+    width: 100px;
+    height: 150px;
+    margin-left: 80px;
+}
+
+@font-face {
+    font-family:'My Font';
+    src: url(Norse-Bold.otf);
+}
+
+.img h1{
+    font-family: 'My Font';
+    color: #fff;
+    font-size: 80px;
+    margin-top: 40px;
+}
+
+.img{
+    display: flex;
+    background-color: rgba(0,0,0,0.6);
+}
+
+.imgs{
+    padding-top: 100px;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+}
+
+.text{
+    padding: 100px;
+    width: 500px;
+}
+
+.flex{
+    background-color: rgba(112, 128, 144, 0.2);
+    width: 1000px;
+}
+
+.form{
+    background-color: #fff;
+    height: 400px;
+}
+
+.for{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.for input{
+    width: 200px;
+    height: 30px;
+}
+
+.forms{
+    display: grid;
+    grid-template-columns: 200px 200px;
+    margin-left: 100px;
+    grid-gap: 20px;
+    margin-top: 50px;
+}
+
+.form h3{
+    margin-left: 100px;
+}
+
+.create{
+    padding: 50px;
+}
+
+.btn{
+    width: 200px;
+    height: 50px;
+    background-color: green;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.para{
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.para a{
+    color: green;
+    text-decoration: none;
+}
